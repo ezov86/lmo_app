@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/InfoFragment"
+    android:orientation="vertical"
+    tools:context=".fragments.info.PrescribedStatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+            android:id="@+id/orderDate"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/dateSample" />
+
+        <TextView
+            android:id="@+id/daysLeft"
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp">
+
+        <TextView
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/daysCount" />
+
+        <TextView
+            android:id="@+id/daysCount"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <View
+        style="@style/HorizontalDivider"
+        android:layout_marginVertical="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp">
+
+        <TextView
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/status" />
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prescribed1"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="sampleText">Пример текста</string>
+    <string name="longSampleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation.</string>
+    <string name="dateSample">11.02.2022</string>
+
+    <string name="app_name">lmo</string>
+    <string name="ministryOfHealth">Министерство здравоохранения Кузбасса</string>
+    <string name="name">Автоматизированное обеспечение льготными лекарствами</string>
+    <string name="description">Рецепт выписан в электронном виде. Для получения лекарственного препарата
+        Вам необходимо показать <b>QR-код</b> рецепта на экране мобильного телефона или предъявить
+        <b>бумажный рецепт</b>.</string>
+
+    <string name="daysCount">Срок действия</string>
+    <string name="status">Статус</string>
+    <string name="rp">Rp</string>
+    <string name="dtd">D.t.d.</string>
+    <string name="signa">Signa</string>
+    <string name="prescribedBy">Рецепт выписал</string>
+    <string name="organization">Медицинская организация</string>
+    <string name="pharmacist">Фармацевт</string>
+    <string name="pharmacy">Аптека</string>
+
+    <string name="prescribed1">Активный</string>
+    <string name="released1">Отпущенный</string>
+    <string name="delayed1">Отложенный</string>
+
+    <string name="prescribed">Выписанные</string>
+    <string name="released">Отпущенные</string>
+    <string name="delayed">Отложенные</string>
+
+    <string name="prescription">Рецепт %1$s</string>
+
+    <!-- Toolbar titles -->
+    <string name="prescriptions">Рецепты</string>
+    <string name="info">Информация о рецепте</string>
+    <string name="qrCode">QR-код рецепта</string>
+
+    <!-- Content description -->
+    <string name="companyLogo">АТОЛЛ</string>
+    <string name="showPrescription">Показать рецепт</string>
+    <string name="back">Назад</string>
+
+    <!-- Exceptions. -->
+    <string name="somethingWentWrong">Что-то пошло не так.</string>
+    <string name="tryToRestartApp">Попробуйте перезапустить приложение.</string>
+    <string name="notFound">Не найдено.</string>
+    <string name="httpError">Ошибка связи с сервером</string>
+    <string name="code">код</string>
+
+    <!-- For runtime. -->
+    <string name="shortInfoFormat">от %1$s  |  %2$s</string>
+    <string name="seriesAndNumber">%1$s N %2$s</string>
+
+    <!-- Buttons -->
+    <string name="loginButton">Войти</string>
+    <string name="qrCodeButton">QR-код рецепта</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

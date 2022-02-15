@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rpDtdSignaContainer"
+    style="@style/InfoFragment"
+    tools:context=".fragments.info.RpDtdSignaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/rp" />
+
+        <TextView
+            android:id="@+id/rp"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <View
+        style="@style/HorizontalDivider"
+        android:layout_marginVertical="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/dtd" />
+
+        <TextView
+            android:id="@+id/dtd"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <View
+        style="@style/HorizontalDivider"
+        android:layout_marginVertical="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Theme.Lmo.PrescriptionLightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/signa" />
+
+        <TextView
+            android:id="@+id/signa"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+</LinearLayout>

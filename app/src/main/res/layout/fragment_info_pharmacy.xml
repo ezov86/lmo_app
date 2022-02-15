@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pharmacyInfoBlock"
+    style="@style/InfoFragment"
+    tools:context=".fragments.info.PharmacyFragment">
+
+    <TextView
+        style="@style/Theme.Lmo.PrescriptionLightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pharmacist" />
+
+    <TextView
+        android:id="@+id/pharmacistName"
+        style="@style/Theme.Lmo.PrescriptionBoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/sampleText" />
+
+    <View style="@style/HorizontalDivider" />
+
+    <TextView
+        style="@style/Theme.Lmo.PrescriptionLightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/pharmacy" />
+
+    <TextView
+        android:id="@+id/pharmacy"
+        style="@style/Theme.Lmo.PrescriptionBoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sampleText" />
+</LinearLayout>

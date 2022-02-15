@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/recipeShortInfo"
+            style="@style/Theme.Lmo.PrescriptionBoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/prescription" />
+
+        <include layout="@layout/fragment_info_prescribed_status" />
+
+        <Button
+            android:id="@+id/qrButton"
+            style="@style/Theme.Lmo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            android:maxWidth="500dp"
+            android:paddingHorizontal="60dp"
+            android:paddingVertical="10dp"
+            android:text="@string/qrCodeButton"
+            android:textSize="16sp" />
+
+<!--        <include-->
+<!--            android:id="@+id/infoRpDtdSignaFragment"-->
+<!--            layout="@layout/fragment_info_rp_dtd_signa" />-->
+
+<!--        <include-->
+<!--            android:id="+id/infoOrganizationFragment"-->
+<!--            layout="@layout/fragment_info_organization" />-->
+
+<!--        <include-->
+<!--            android:id="+id/infoPharmacyFragment"-->
+<!--            layout="@layout/fragment_info_pharmacy" />-->
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/fragmentContainerView"-->
+<!--            android:name="com.komiac.lmo.fragments.info.PharmacyFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+
+
+    </LinearLayout>
+</ScrollView>
